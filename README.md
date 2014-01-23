@@ -101,7 +101,9 @@ In **Terminal** run;
     
 This *should* compile all the files (Jade, LESS, SASS), start a web browser and open the development site in your web browser.
 
-
+To create minifed files use
+    
+    grunt production
     
 
 
