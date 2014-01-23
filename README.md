@@ -17,7 +17,7 @@ A Jade, LESS &amp; SASS, Grunt.js starter pack for front-end designers/developer
 
 1.2) To test your Git install run the following command in **Terminal** 
 
-    Download & Install the Node.js Mac OSX Installer
+    git --version
     
 You should see something like this
 
@@ -65,20 +65,21 @@ In **Terminal** run;
 
     git clone https://github.com/ianscrivener/starter4Russ
     cd start4Russ
-    ls -l
+
+
 
 This will create a new directory called 'starter4Russ'.. something like this
 
-    | output
-        |css
-        | img
-        index.html
     |source
         |img
         |jade
         |less
         |sass
         index.jade
+    | wwwroot
+        |css
+        |img
+        index.html
     Gruntfile.js
     package.json
     README.md        
@@ -90,13 +91,15 @@ In **Terminal** run;
     
     npm init
     
-This will download & install all the Grunt.js packages requiredfor our project.
+This will download & install all the Grunt.js packages requiredf or our project.
 
 ####6) Start grunt
 
 In **Terminal** run;
     
-    npm init
+    grunt
+    
+This *should* compile all the files (Jade, LESS, SASS), start a web browser and open the development site in your web browser.
 
 
     
