@@ -1,0 +1,4 @@
+mixin radio(id,name,value,label)
+	.form-item-radio
+		input.form-radio(id='#{id}', type='radio', name='#{name}', value='#{value}')
+		label.form-label-radio(for='#{name}') #{label}

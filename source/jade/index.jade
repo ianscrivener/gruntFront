@@ -1,0 +1,9 @@
+include mixins/form.jade
+
+extends _base.jade
+
+block content
+	p hello Sexy Man!!
+	form
+		mixin radio('gender', 'male_radio','m', 'Male')
+		mixin radio('gender', 'female_radio','f', 'Female')
