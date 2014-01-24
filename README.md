@@ -3,7 +3,7 @@
 
 ###Introduction
 
-A Jade, LESS &amp; SASS, Grunt.js starter pack for front-end designers/developers
+A Grunt.js, Jade, LESS &amp; SASS starter pack for front-end designers/developers
 
 
 
